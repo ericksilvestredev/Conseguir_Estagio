@@ -127,6 +127,38 @@
         </main>
     </div>
 
+    <!-- AI Report Modal -->
+    <div id="report-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="header-info">
+                    <div class="ai-badge">IA Insight</div>
+                    <h2 id="modal-company-name">Nome da Empresa</h2>
+                </div>
+                <button class="close-modal" id="close-report-modal">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="report-section">
+                    <h3>O que a empresa faz?</h3>
+                    <p id="report-summary" class="summary-text"></p>
+                </div>
+                <div class="report-section">
+                    <h3>Relevância para Backend</h3>
+                    <p id="report-details"></p>
+                </div>
+                <div class="report-section">
+                    <h3>Pontos Chave para Entrevista</h3>
+                    <ul id="report-bullets" class="bullet-list"></ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary" id="modal-apply-btn">Acessar Portal de Vagas</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Scripts -->
     <script type="module" src="js/script.js"></script>
 </body>

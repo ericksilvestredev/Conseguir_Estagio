@@ -1,4 +1,5 @@
 import { contacts as initialData } from './data.js';
+import { reports } from './reports.js';
 
 // State
 const savedContacts = localStorage.getItem('backend_tracker_contacts');
@@ -19,6 +20,15 @@ const rejectedCountEl = document.getElementById('rejected-count');
 const approvedCountEl = document.getElementById('approved-count');
 const emptyStateEl = document.getElementById('empty-state');
 const contentAreaEl = document.getElementById('content-area');
+
+// Modal Elements
+const reportModal = document.getElementById('report-modal');
+const modalCompanyName = document.getElementById('modal-company-name');
+const modalSummary = document.getElementById('report-summary');
+const modalDetails = document.getElementById('report-details');
+const modalBullets = document.getElementById('report-bullets');
+const closeModalBtn = document.getElementById('close-report-modal');
+const modalApplyBtn = document.getElementById('modal-apply-btn');
 const viewButtons = document.querySelectorAll('.view-btn');
 const btnDownload = document.getElementById('btn-download');
 
@@ -28,7 +38,8 @@ const ICONS = {
     externalLink: `<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>`,
     send: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>`,
     talk: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>`,
-    reject: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>`
+    reject: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>`,
+    sparkles: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/><path d="M5 3v4"/><path d="M19 17v4"/><path d="M3 5h4"/><path d="M17 19h4"/></svg>`
 };
 
 const statCards = document.querySelectorAll('.stat-card');
@@ -86,6 +97,15 @@ function setupEventListeners() {
 
     // Download
     btnDownload.addEventListener('click', downloadCSV);
+
+    // Close Modal
+    closeModalBtn.addEventListener('click', () => {
+        reportModal.classList.add('hidden');
+    });
+
+    window.addEventListener('click', (e) => {
+        if (e.target === reportModal) reportModal.classList.add('hidden');
+    });
 }
 
 function setView(view) {
@@ -118,6 +138,25 @@ function setStatusFilter(filter) {
 
     render();
 }
+
+window.showReport = (id) => {
+    const report = reports[id];
+    const contact = contacts.find(c => c.id == id);
+
+    if (!report || !contact) {
+        alert("Relatório de IA ainda não gerado para esta empresa.");
+        return;
+    }
+
+    modalCompanyName.textContent = contact.empresa;
+    modalSummary.textContent = report.summary;
+    modalDetails.textContent = report.details;
+    modalBullets.innerHTML = report.bullets.map(b => `<li>${b}</li>`).join('');
+
+    modalApplyBtn.onclick = () => window.open(contact.link, '_blank');
+
+    reportModal.classList.remove('hidden');
+};
 
 function getFilteredContacts() {
     return contacts.filter(c => {
@@ -191,6 +230,10 @@ function renderTable(data) {
                     <button onclick="window.updateStatus('${item.id}', 'Recusado')" class="action-btn btn-rejected" title="Marcar como Recusado">
                         ${ICONS.reject}
                     </button>
+                    ${reports[item.id] ? `
+                    <button onclick="window.showReport('${item.id}')" class="action-btn" title="Ver Relatório IA" style="background: #eef2ff; color: #4f46e5;">
+                        ${ICONS.sparkles}
+                    </button>` : ''}
                 </div>
             </td>
             <td>
@@ -258,6 +301,10 @@ function renderGrid(data) {
                     <button onclick="window.updateStatus('${item.id}', 'Recusado')" class="action-btn btn-rejected" title="Recusado">
                         ${ICONS.reject}
                     </button>
+                    ${reports[item.id] ? `
+                    <button onclick="window.showReport('${item.id}')" class="action-btn" title="Relatório IA" style="background: #eef2ff; color: #4f46e5;">
+                        ${ICONS.sparkles}
+                    </button>` : ''}
                 </div>
             </div>
         </div>
