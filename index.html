@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backend Tracker - Lista de Estágios</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=cal:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Control Center (Sticky) -->
+        <div class="control-center">
+            <header class="main-header">
+                <div class="logo-section">
+                    <div class="logo-icon">
+                        <i data-lucide="building-2"></i>
+                    </div>
+                    <div>
+                        <h1>Backend Tracker</h1>
+                        <p>Lista de Empresas de Estágio</p>
+                    </div>
+                </div>
+
+                <div class="header-actions">
+                    <button id="btn-download" class="btn btn-secondary">
+                        <i data-lucide="download"></i>
+                        <span>Exportar CSV</span>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Interactive Stats Dashboard -->
+            <div class="stats-row">
+                <div class="stat-card primary active" data-filter="all">
+                    <span class="stat-label">Total</span>
+                    <strong class="stat-value" id="total-count">0</strong>
+                </div>
+                <div class="stat-card neutral" data-filter="Para Aplicar">
+                    <span class="stat-label">Pendentes</span>
+                    <strong class="stat-value" id="pending-count">0</strong>
+                </div>
+                <div class="stat-card info" data-filter="Aplicado">
+                    <span class="stat-label">Enviadas</span>
+                    <strong class="stat-value" id="applied-count">0</strong>
+                </div>
+                <div class="stat-card warning" data-filter="Entrevista">
+                    <span class="stat-label">Entrevista</span>
+                    <strong class="stat-value" id="interview-count">0</strong>
+                </div>
+                <div class="stat-card danger" data-filter="Recusado">
+                    <span class="stat-label">Recusadas</span>
+                    <strong class="stat-value" id="rejected-count">0</strong>
+                </div>
+                <div class="stat-card success" data-filter="Aprovado">
+                    <span class="stat-label">Aprovadas</span>
+                    <strong class="stat-value" id="approved-count">0</strong>
+                </div>
+            </div>
+
+            <!-- Toolbar -->
+            <div class="toolbar">
+                <div class="search-bar">
+                    <i data-lucide="search" class="search-icon"></i>
+                    <input type="text" id="search-input" placeholder="Pesquisar por empresa, stack ou setor...">
+                </div>
+
+                <div class="view-toggles">
+                    <button class="view-btn active" data-view="table" title="Visualização em Lista">
+                        <i data-lucide="list"></i>
+                    </button>
+                    <button class="view-btn" data-view="grid" title="Visualização em Grade">
+                        <i data-lucide="layout-grid"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <main>
+            <!-- Content Area -->
+            <div id="content-area" class="content-table-view">
+                <!-- Table View -->
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Empresa / Setor</th>
+                                <th>Stack Principal</th>
+                                <th>Contato RH</th>
+                                <th>Ação</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="contacts-list">
+                            <!-- Items will be injected here -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Grid View (Hidden by default) -->
+                <div class="grid-container hidden" id="contacts-grid">
+                    <!-- Grid items will be injected here -->
+                </div>
+
+                <!-- Empty State -->
+                <div id="empty-state" class="empty-state hidden">
+                    <div class="empty-icon">
+                        <i data-lucide="search-x"></i>
+                    </div>
+                    <h3>Nenhum resultado encontrado</h3>
+                    <p>Tente refinar sua busca por outros termos.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="js/script.js"></script>
+</body>
+
+</html>

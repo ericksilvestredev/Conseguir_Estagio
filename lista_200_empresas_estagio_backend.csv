@@ -1,0 +1,161 @@
+ID;Empresa;Setor;Link;Email;Foco;Status
+1;Solinftec;AgTech;https://solinftec.gupy.io/;talentos@solinftec.com;Python/Go;Para Aplicar
+2;Agrosmart;AgTech;https://agrosmart.gupy.io/;rh@agrosmart.com.br;Python/Django;Para Aplicar
+3;Aegro;AgTech;https://aegro.gupy.io/;talentos@aegro.com.br;Ruby/Node.js;Para Aplicar
+4;Checkplant;AgTech;https://checkplant.gupy.io/;rh@checkplant.com.br;PHP/Laravel;Para Aplicar
+5;Perfect Flight;AgTech;https://perfectflight.gupy.io/;rh@perfectflight.com.br;Java/Node.js;Para Aplicar
+6;Gira;AgTech;https://gira.gupy.io/;talentos@gira.com.br;Python/SQL;Para Aplicar
+7;Bart Digital;AgTech;https://bartdigital.gupy.io/;rh@bartdigital.com.br;Node.js/Go;Para Aplicar
+8;DigiFarmz;AgTech;https://digifarmz.gupy.io/;contato@digifarmz.com;Python;Para Aplicar
+9;Strider (Syngenta);AgTech;https://syngenta.gupy.io/;rh@strider.ag;Python/Django;Para Aplicar
+10;Jacto Next;AgTech;https://jacto.gupy.io/;talentos@jacto.com.br;Java/Python;Para Aplicar
+11;Cargill Brasil;Agro;https://cargill.gupy.io/;talentos@cargill.com;Python/SQL;Para Aplicar
+12;Amaggi;Agro;https://amaggi.gupy.io/;talentos@amaggi.com.br;Java/.NET;Para Aplicar
+13;Bunge Brasil;Agro;https://bunge.gupy.io/;rh@bunge.com;Java;Para Aplicar
+14;Louis Dreyfus;Agro;https://ldc.gupy.io/;rh@ldc.com;Python;Para Aplicar
+15;Mosaic Fertilizantes;Agro;https://mosaic.gupy.io/;rh@mosaicco.com.br;Java;Para Aplicar
+16;Yara Brasil;Agro;https://yara.gupy.io/;rh@yara.com;Python/SQL;Para Aplicar
+17;SLC Agrícola;Agro;https://slcagricola.gupy.io/;rh@slcagricola.com.br;Java;Para Aplicar
+18;Citrosuco;Agro;https://citrosuco.gupy.io/;rh@citrosuco.com.br;Java/SAP;Para Aplicar
+19;Tereos;Agro;https://tereos.gupy.io/;rh@tereos.com;Java;Para Aplicar
+20;São Martinho;Agro;https://saomartinho.gupy.io/;rh@saomartinho.com.br;Java;Para Aplicar
+21;Senior Sistemas;ERP/SaaS;https://senior.gupy.io/;talentos@senior.com.br;Java/Delphi;Para Aplicar
+22;Matera;ERP/SaaS;https://matera.gupy.io/;talentos@matera.com;Java/Spring;Para Aplicar
+23;Sankhya;ERP/SaaS;https://sankhya.gupy.io/;talentos@sankhya.com.br;Java/Oracle;Para Aplicar
+24;Omie;ERP/SaaS;https://omie.gupy.io/;talentos@omie.com.br;.NET/C#;Para Aplicar
+25;Superlógica;ERP/SaaS;https://superlogica.gupy.io/;rh@superlogica.com;PHP/Node.js;Para Aplicar
+26;Softplan;ERP/SaaS;https://softplan.gupy.io/;talentos@softplan.com.br;Java/.NET;Para Aplicar
+27;Neogrid;ERP/SaaS;https://neogrid.gupy.io/;talentos@neogrid.com;Java/Python;Para Aplicar
+28;Linx;ERP/SaaS;https://linx.gupy.io/;rh@linx.com.br;C#/SQL;Para Aplicar
+29;Alterdata;ERP/SaaS;https://alterdata.gupy.io/;rh@alterdata.com.br;C#/SQL;Para Aplicar
+30;Vindi;ERP/SaaS;https://vindi.gupy.io/;talentos@vindi.com.br;PHP/Node.js;Para Aplicar
+31;Conta Azul;ERP/SaaS;https://contaazul.gupy.io/;talentos@contaazul.com;Java;Para Aplicar
+32;Solides;ERP/SaaS;https://solides.gupy.io/;talentos@solides.com.br;Ruby/PHP;Para Aplicar
+33;Movidesk;ERP/SaaS;https://movidesk.gupy.io/;talentos@movidesk.com;.NET/C#;Para Aplicar
+34;Octadesk;ERP/SaaS;https://octadesk.gupy.io/;rh@octadesk.com;Node.js;Para Aplicar
+35;Involves;ERP/SaaS;https://involves.gupy.io/;talentos@involves.com;Java/PHP;Para Aplicar
+36;Pipefy;ERP/SaaS;https://pipefy.gupy.io/;talentos@pipefy.com;Ruby/Node.js;Para Aplicar
+37;Zenvia;ERP/SaaS;https://zenvia.gupy.io/;talentos@zenvia.com;Java/Node.js;Para Aplicar
+38;Take Blip;ERP/SaaS;https://takeblip.gupy.io/;talentos@blip.ai;C#/Node.js;Para Aplicar
+39;Rocket.Chat;ERP/SaaS;https://rocket.chat/careers;jobs@rocket.chat;Node.js/Meteor;Para Aplicar
+40;Wavy (Sinch);ERP/SaaS;https://sinch.gupy.io/;talentos@sinch.com;Java/Node.js;Para Aplicar
+41;Intelipost;Logística;https://intelipost.gupy.io/;talentos@intelipost.com.br;Java/Node.js;Para Aplicar
+42;Logcomex;Logística;https://logcomex.gupy.io/;talentos@logcomex.com;Python/Node.js;Para Aplicar
+43;Frete.com;Logística;https://frete.gupy.io/;talentos@frete.com;Go/Python;Para Aplicar
+44;TruckPad;Logística;https://truckpad.gupy.io/;rh@truckpad.com.br;Python/Django;Para Aplicar
+45;Tegma;Logística;https://tegma.gupy.io/;rh@tegma.com.br;Java;Para Aplicar
+46;JSL;Logística;https://jsl.gupy.io/;talentos@jsl.com.br;Java;Para Aplicar
+47;Santos Brasil;Logística;https://santosbrasil.gupy.io/;rh@santosbrasil.com.br;Java/.NET;Para Aplicar
+48;Rumo Logística;Logística;https://rumo.gupy.io/;talentos@rumolog.com;Python/Java;Para Aplicar
+49;Wilson Sons;Logística;https://wilsonsons.gupy.io/;rh@wilsonsons.com.br;Java;Para Aplicar
+50;Hidrovias do Brasil;Logística;https://hidrovias.gupy.io/;rh@hbsa.com.br;Python/SQL;Para Aplicar
+51;Weg;Indústria;https://weg.gupy.io/;talentos@weg.net;Java/.NET;Para Aplicar
+52;Tupy;Indústria;https://tupy.gupy.io/;rh@tupy.com.br;Java/SAP;Para Aplicar
+53;Klabin;Indústria;https://klabin.gupy.io/;rh@klabin.com.br;Java/Python;Para Aplicar
+54;Suzano;Indústria;https://suzano.gupy.io/;rh@suzano.com.br;Java/Cloud;Para Aplicar
+55;Gerdau;Indústria;https://gerdau.gupy.io/;rh@gerdau.com.br;Java/C#;Para Aplicar
+56;ArcelorMittal;Indústria;https://arcelormittal.gupy.io/;rh@arcelormittal.com.br;Java/SAP;Para Aplicar
+57;Usiminas;Indústria;https://usiminas.gupy.io/;rh@usiminas.com;Java;Para Aplicar
+58;Dexco (Duratex);Indústria;https://dexco.gupy.io/;rh@dexco.com.br;Java;Para Aplicar
+59;Votorantim;Indústria;https://votorantim.gupy.io/;talentos@votorantim.com.br;Java/Python;Para Aplicar
+60;Tigre;Indústria;https://tigre.gupy.io/;rh@tigre.com.br;Java;Para Aplicar
+71;Engie Brasil;Energia;https://engie.gupy.io/;rh@engie.com.br;Python/Node.js;Para Aplicar
+72;CPFL Energia;Energia;https://cpfl.gupy.io/;rh@cpfl.com.br;Java/.NET;Para Aplicar
+73;Energisa;Energia;https://energisa.gupy.io/;rh@energisa.com.br;Java/Python;Para Aplicar
+74;Equatorial Energia;Energia;https://equatorial.gupy.io/;rh@equatorial.com.br;Java/Go;Para Aplicar
+75;Neoenergia;Energia;https://neoenergia.gupy.io/;rh@neoenergia.com;Java;Para Aplicar
+76;Statkraft Brasil;Energia;https://statkraft.gupy.io/;rh@statkraft.com;Java;Para Aplicar
+77;Omega Energia;Energia;https://omega.gupy.io/;rh@omegaenergia.com.br;Python/Java;Para Aplicar
+78;EDP Brasil;Energia;https://edpbrasil.gupy.io/;talentos@edp.br;Java;Para Aplicar
+79;Alupar;Energia;https://alupar.gupy.io/;rh@alupar.com.br;Java;Para Aplicar
+80;Taesa;Energia;https://taesa.gupy.io/;rh@taesa.com.br;Java;Para Aplicar
+91;Sami;Saúde;https://samisaude.gupy.io/;talentos@samisaude.com.br;Node.js/Go;Para Aplicar
+92;Alice;Saúde;https://alice.gupy.io/;talentos@alice.com.br;Kotlin/Node.js;Para Aplicar
+93;Pipo Saúde;Saúde;https://piposaude.gupy.io/;talentos@piposaude.com.br;Node.js;Para Aplicar
+94;Dr. Consulta;Saúde;https://drconsulta.gupy.io/;rh@drconsulta.com;Node.js/Java;Para Aplicar
+95;Zenklub;Saúde;https://zenklub.gupy.io/;talentos@zenklub.com;PHP/Node.js;Para Aplicar
+96;Vitalk;Saúde;https://vitalk.gupy.io/;rh@vitalk.com.br;Node.js;Para Aplicar
+97;Memed;Saúde;https://memed.gupy.io/;rh@memed.com.br;PHP/Node.js;Para Aplicar
+98;iClinic (Pismo);Saúde;https://iclinic.gupy.io/;rh@iclinic.com.br;Python/Node.js;Para Aplicar
+99;Fleury Digital;Saúde;https://fleury.gupy.io/;rh@fleury.com.br;Java/Python;Para Aplicar
+100;Dasa Tech;Saúde;https://dasa.gupy.io/;rh@dasa.com.br;Java/Node.js;Para Aplicar
+101;Cora;Fintech;https://cora.gupy.io/;talent@cora.com.br;Node.js;Para Aplicar
+102;Nomad;Fintech;https://nomad.gupy.io/;talentos@nomadglobal.com;Java/Go;Para Aplicar
+103;Warren;Fintech;https://warren.gupy.io/;talentos@warren.com.br;Java/Node.js;Para Aplicar
+104;Conta Simples;Fintech;https://contasimples.gupy.io/;talentos@contasimples.com;Node.js/Go;Para Aplicar
+105;BizCapital;Fintech;https://bizcapital.gupy.io/;talentos@bizcapital.com.br;Python/Django;Para Aplicar
+106;Swap;Fintech;https://swap.gupy.io/;talentos@swap.financial;Node.js/Go;Para Aplicar
+107;FitBank;Fintech;https://fitbank.gupy.io/;rh@fitbank.com.br;C#/SQL;Para Aplicar
+108;Asaas;Fintech;https://asaas.gupy.io/;rh@asaas.com.br;Java/PHP;Para Aplicar
+109;Juno (Ebanx);Fintech;https://juno.gupy.io/;rh@juno.com.br;Java;Para Aplicar
+110;Stark Bank;Fintech;https://starkbank.com/careers;hiring@starkbank.com;Go/Python;Para Aplicar
+111;Petlove;Varejo;https://petlove.gupy.io/;talentos@petlove.com.br;Node.js/Go;Para Aplicar
+112;Cobasi Tech;Varejo;https://cobasi.gupy.io/;rh@cobasi.com.br;Java/PHP;Para Aplicar
+113;MadeiraMadeira;Varejo;https://madeiramadeira.gupy.io/;talentos@madeiramadeira.com.br;PHP/Python;Para Aplicar
+114;Mobly;Varejo;https://mobly.gupy.io/;talentos@mobly.com.br;PHP/Node.js;Para Aplicar
+115;Westwing;Varejo;https://westwing.gupy.io/;rh@westwing.com.br;PHP/Node.js;Para Aplicar
+116;Tray (Locaweb);Varejo;https://tray.gupy.io/;rh@tray.com.br;PHP;Para Aplicar
+117;Loja Integrada;Varejo;https://lojaintegrada.gupy.io/;rh@lojaintegrada.com.br;Python/Node.js;Para Aplicar
+118;Dafiti Group;Varejo;https://dafiti.gupy.io/;talentos@dafiti.com.br;PHP/Java;Para Aplicar
+119;Netshoes;Varejo;https://netshoes.gupy.io/;talentos@netshoes.com.br;Java/.NET;Para Aplicar
+120;Privalia;Varejo;https://privalia.gupy.io/;rh@privalia.com.br;Java/PHP;Para Aplicar
+121;Pier;Seguros;https://pier.gupy.io/;talentos@pier.digital;Node.js/Go;Para Aplicar
+122;Youse;Seguros;https://youse.gupy.io/;talentos@youse.com.br;Ruby/Kotlin;Para Aplicar
+123;ThinkSeg;Seguros;https://thinkseg.gupy.io/;rh@thinkseg.com;Node.js;Para Aplicar
+124;Porto Seguro (Tech);Seguros;https://portoseguro.gupy.io/;rh@portoseguro.com.br;Java/.NET;Para Aplicar
+125;SulAmérica;Seguros;https://sulamerica.gupy.io/;rh@sulamerica.com.br;Java;Para Aplicar
+126;Liberty Seguros;Seguros;https://liberty.gupy.io/;rh@libertyseguros.com.br;Java;Para Aplicar
+127;Tokio Marine;Seguros;https://tokiomarine.gupy.io/;rh@tokiomarine.com.br;Java;Para Aplicar
+128;Sompo Seguros;Seguros;https://sompo.gupy.io/;rh@sompo.com.br;Java;Para Aplicar
+129;HDI Seguros;Seguros;https://hdi.gupy.io/;rh@hdi.com.br;Java;Para Aplicar
+130;Mongeral Aegon;Seguros;https://mongeralaegon.gupy.io/;rh@mag.com.br;Java;Para Aplicar
+141;Objective;Consultoria;https://objective.gupy.io/;rh@objective.com.br;Java/Agile;Para Aplicar
+142;Digiage;Consultoria;https://digiage.gupy.io/;rh@digiage.com.br;Java/Node.js;Para Aplicar
+143;Avenue Code;Consultoria;https://avenuecode.gupy.io/;hiring@avenuecode.com;Java/Node.js;Para Aplicar
+144;Dextra;Consultoria;https://dextra.gupy.io/;talentos@dextra.com.br;Java/Kotlin;Para Aplicar
+145;Concrete (Accenture);Consultoria;https://concrete.gupy.io/;rh@concrete.com.br;Java/Kotlin;Para Aplicar
+146;Lambda3;Consultoria;https://lambda3.gupy.io/;rh@lambda3.com.br;.NET/Azure;Para Aplicar
+147;Iteris;Consultoria;https://iteris.gupy.io/;rh@iteris.com.br;C#/Node.js;Para Aplicar
+148;Cast Group;Consultoria;https://cast.gupy.io/;rh@castgroup.com.br;Java/SAP;Para Aplicar
+149;Spread Tech;Consultoria;https://spread.gupy.io/;rh@spread.com.br;Java/.NET;Para Aplicar
+150;TIVIT;Consultoria;https://tivit.gupy.io/;rh@tivit.com;Java/Cloud;Para Aplicar
+151;Kovi;Mobilidade;https://kovi.gupy.io/;talentos@kovi.com.br;Elixir/Node.js;Para Aplicar
+152;Buser;Mobilidade;https://buser.com.br/carreiras;vagas@buser.com.br;Python;Para Aplicar
+153;MaxMilhas;Turismo;https://maxmilhas.gupy.io/;talentos@maxmilhas.com.br;PHP/Node.js;Para Aplicar
+154;ClickBus;Turismo;https://clickbus.gupy.io/;talentos@clickbus.com.br;Node.js/PHP;Para Aplicar
+155;Rentcars;Turismo;https://rentcars.gupy.io/;talentos@rentcars.com;PHP/Go;Para Aplicar
+156;Localiza Tech;Mobilidade;https://localiza.gupy.io/;talentos@localiza.com;C#/Java;Para Aplicar
+157;Unidas Tech;Mobilidade;https://unidas.gupy.io/;rh@unidas.com.br;Java;Para Aplicar
+158;Movida Tech;Mobilidade;https://movida.gupy.io/;rh@movida.com.br;Java;Para Aplicar
+159;99 (Didi);Mobilidade;https://99app.com/carreiras/;recruitment@99app.com;Java/Go;Para Aplicar
+160;Rappi Tech;Entrega;https://about.rappi.com/careers;recruitment@rappi.com;Python/Go;Para Aplicar
+161;Ambev Tech;Consumo;https://ambevtech.gupy.io/;talentos@ambevtech.com.br;Java/C#;Para Aplicar
+162;M. Dias Branco;Consumo;https://mdiasbranco.gupy.io/;rh@mdiasbranco.com.br;Java;Para Aplicar
+163;Camil Alimentos;Consumo;https://camil.gupy.io/;rh@camil.com.br;Java;Para Aplicar
+164;Bauducco (Pandurata);Consumo;https://pandurata.gupy.io/;rh@bauducco.com.br;Java;Para Aplicar
+165;BRF Tech;Consumo;https://brf.gupy.io/;rh@brf-global.com;Java/SAP;Para Aplicar
+166;Nestlé Digital;Consumo;https://nestle.gupy.io/;rh@nestle.com.br;Java/Python;Para Aplicar
+167;Heineken Tech;Consumo;https://heineken.gupy.io/;rh@heineken.com.br;Java;Para Aplicar
+168;Coca-Cola Femsa;Consumo;https://femsa.gupy.io/;rh@femsa.com.mx;Java;Para Aplicar
+169;Habib's Tech;Consumo;https://habibs.gupy.io/;rh@habibs.com.br;Node.js;Para Aplicar
+170;Cacau Show;Consumo;https://cacaushow.gupy.io/;rh@cacaushow.com.br;Java;Para Aplicar
+181;Algar Tech;Telecom;https://algartech.gupy.io/;rh@algartech.com;Java/.NET;Para Aplicar
+182;Vivo Tech;Telecom;https://telefonica.gupy.io/;talentos@vivo.com.br;Java/Node.js;Para Aplicar
+183;Claro Tech;Telecom;https://claro.gupy.io/;talentos@claro.com.br;Java/PHP;Para Aplicar
+184;Tim Tech;Telecom;https://tim.gupy.io/;talentos@timbrasil.com.br;Java/Python;Para Aplicar
+185;Oi Digital;Telecom;https://oi.gupy.io/;talentos@oi.net.br;Java/Node.js;Para Aplicar
+186;Sky Brasil;Telecom;https://sky.gupy.io/;rh@sky.com.br;Java;Para Aplicar
+187;Embratel;Telecom;https://embratel.gupy.io/;rh@embratel.com.br;Java;Para Aplicar
+188;Positivo Tech;Hardware/Tech;https://positivo.gupy.io/;rh@positivo.com.br;C++/Java;Para Aplicar
+189;Multilaser;Hardware/Tech;https://multilaser.gupy.io/;rh@multilaser.com.br;Java/PHP;Para Aplicar
+190;Intelbras;Hardware/Tech;https://intelbras.gupy.io/;rh@intelbras.com.br;C++/Python;Para Aplicar
+191;Sebrae Tech;Serviços;https://sebrae.gupy.io/;rh@sebrae.com.br;PHP/Java;Para Aplicar
+192;Senac Digital;Educação;https://senac.gupy.io/;talentos@senac.br;Node.js;Para Aplicar
+193;Sesc Tech;Serviços;https://sesc.gupy.io/;rh@sesc.com.br;Java;Para Aplicar
+194;Banrisul Tech;Bancos;https://banrisul.gupy.io/;rh@banrisul.com.br;Java/.NET;Para Aplicar
+195;Banestes Digital;Bancos;https://banestes.gupy.io/;rh@banestes.com.br;Java;Para Aplicar
+196;Banco Nordeste;Bancos;https://concurso.bnb.gov.br/;concurso@bnb.gov.br;Java;Para Aplicar
+197;Banco Amazonia;Bancos;https://bancoamazonia.gupy.io/;rh@bancoamazonia.com.br;Java;Para Aplicar
+198;KaBuM!;E-commerce;https://kabum.gupy.io/;rh@kabum.com.br;PHP/Node.js;Para Aplicar
+199;Estante Virtual;E-commerce;https://estantevirtual.gupy.io/;rh@estantevirtual.com.br;Ruby;Para Aplicar
+200;Faber-Castell Br;Consumo;https://faber-castell.gupy.io/;rh@faber-castell.com.br;Java;Para Aplicar

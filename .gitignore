@@ -1,0 +1,19 @@
+# IDEs
+.gemini/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+generate_data.py
+
+# Data
+# js/data.js # Keep if it's the main data file
+# *.csv # Keep if the user wants the source
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
