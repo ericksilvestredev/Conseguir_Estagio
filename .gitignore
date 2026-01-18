@@ -13,7 +13,8 @@ generate_data.py
 # js/data.js # Keep if it's the main data file
 # *.csv # Keep if the user wants the source
 
-# OS
+# Environment
+.env
 Thumbs.db
 Desktop.ini
 .DS_Store

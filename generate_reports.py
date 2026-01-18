@@ -3,9 +3,16 @@ import json
 import os
 
 # CONFIGURAÇÃO
-# 1. Obtenha sua API KEY em https://aistudio.google.com/
-# 2. Defina a variável de ambiente GOOGLE_API_KEY ou cole aqui (não recomendado comitar)
-GOOGLE_API_KEY = "SUA_CHAVE_AQUI"
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+if not GOOGLE_API_KEY:
+    try:
+        from dotenv import load_dotenv
+        load_dotenv()
+        GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+    except ImportError:
+        pass
+
 genai.configure(api_key=GOOGLE_API_KEY)
 
 def generate_report(empresa, setor):
